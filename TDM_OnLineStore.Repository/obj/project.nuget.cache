@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+hSzK9yQwNu6W3gAY6+PH6ebeglVCU2z8NDDf7dsSxmufUctMI5Lc6NAVBUdGovnmyu0IfgHXxNW6nNz4ntdig==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
