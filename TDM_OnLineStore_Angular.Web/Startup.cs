@@ -63,7 +63,11 @@ namespace TDM_OnLineStore_Angular.Web
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseAngularCliServer(npmScript: "start");
+                    ////RUNNING FROM THE ASP.NET Core SERVER (IIS)
+                    //spa.UseAngularCliServer(npmScript: "start");
+
+                    //RUNNING FROM THE ANGULAR SERVER
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:4200/");
                 }
             });
         }

@@ -1,0 +1,9 @@
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\bin\Debug\netstandard2.0\TDM_OnLineStore.Dominium.deps.json
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\bin\Debug\netstandard2.0\TDM_OnLineStore.Dominium.dll
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\bin\Debug\netstandard2.0\TDM_OnLineStore.Dominium.pdb
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.csprojAssemblyReference.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.csproj.CoreCompileInputs.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.AssemblyInfoInputs.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.AssemblyInfo.cs
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.dll
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Dominium\obj\Debug\netstandard2.0\TDM_OnLineStore.Dominium.pdb

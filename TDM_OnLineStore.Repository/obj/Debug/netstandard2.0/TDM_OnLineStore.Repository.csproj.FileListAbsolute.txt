@@ -1,0 +1,9 @@
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\bin\Debug\netstandard2.0\TDM_OnLineStore.Repository.deps.json
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\bin\Debug\netstandard2.0\TDM_OnLineStore.Repository.dll
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\bin\Debug\netstandard2.0\TDM_OnLineStore.Repository.pdb
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.csprojAssemblyReference.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.csproj.CoreCompileInputs.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.AssemblyInfoInputs.cache
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.AssemblyInfo.cs
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.dll
+C:\WorkSpace\GitHub\TDM_OnLineStore_Angular\TDM_OnLineStore.Repository\obj\Debug\netstandard2.0\TDM_OnLineStore.Repository.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {}
+    "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {
+    "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
         "projectName": "TDM_OnLineStore.Dominium",
-        "projectPath": "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
+        "projectPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
         "packagesPath": "C:\\Users\\theom\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\obj\\",
+        "outputPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
