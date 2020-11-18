@@ -1,0 +1,12 @@
+{
+  //Structure for a json file
+  //"Key" :  "Value",
+
+  "ConnectionStrings": {
+    "TDM_OnLineStoreDB": "server=localhost;uid=root;pwd=Password;database=TDM_OnLineStoreDB"
+  }
+}
+
+
+
+

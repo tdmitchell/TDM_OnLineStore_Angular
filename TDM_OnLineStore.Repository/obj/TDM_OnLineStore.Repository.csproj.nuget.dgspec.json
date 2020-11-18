@@ -4,14 +4,14 @@
     "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj": {
+    "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj",
-        "projectName": "TDM_OnLineStore.Repository",
-        "projectPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
+        "projectName": "TDM_OnLineStore.Dominium",
+        "projectPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
         "packagesPath": "C:\\Users\\theom\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\obj\\",
+        "outputPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,6 +46,70 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj",
+        "projectName": "TDM_OnLineStore.Repository",
+        "projectPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\TDM_OnLineStore.Repository.csproj",
+        "packagesPath": "C:\\Users\\theom\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\theom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj": {
+                "projectPath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
