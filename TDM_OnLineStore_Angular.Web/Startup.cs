@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TDM_OnLineStore.Dominium.Models.Interface;
 using TDM_OnLineStore.Repository;
+using TDM_OnLineStore.Repository.Repositories;
 
 namespace TDM_OnLineStore_Angular.Web
 {
@@ -32,6 +34,9 @@ namespace TDM_OnLineStore_Angular.Web
                                                   opition.UseLazyLoadingProxies()           // --- Allows the automatic loading of all relationship between tables in the DB ---
                                                         .UseMySql(connectionString,
                                                                      m => m.MigrationsAssembly("TDM_OnLineStore.Repository")));
+
+            ///Connection between the Repository Interface and the Concrete Repository (Dependence Injection)
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
