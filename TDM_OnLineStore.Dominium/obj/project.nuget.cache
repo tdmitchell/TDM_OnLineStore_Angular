@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CD8QXylh909g8+zRcF0FUOkGfqz2E15cx7Re60R4rEP6fhdZCHI5RCmghspafXCNjSkExG7YQMVlt5ZoAtuI9A==",
+  "dgSpecHash": "LWynv4kmoQYbcHQmFaiusD5kP+Ah0Ag9/0vqZ1t9eGex0VXwrORbiFl/DD9PnG4MXfrRZ6a8WDuNAUZzWLX5cA==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\GitHub\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
+  "projectFilePath": "C:\\WorkSpace\\Github\\TDM_OnLineStore_Angular\\TDM_OnLineStore.Dominium\\TDM_OnLineStore.Dominium.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\theom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\theom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

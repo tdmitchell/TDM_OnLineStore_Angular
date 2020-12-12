@@ -11,9 +11,10 @@ namespace TDM_OnLineStore.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
+            ///Configuring the Properties
+            //Builder uses the Fluent pattern
             builder.HasKey(p => p.Id);
 
-            //Builder uses the Fluent pattern
             builder
                 .Property(p => p.Name)
                 .IsRequired()

@@ -11,9 +11,10 @@ namespace TDM_OnLineStore.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Order> builder)
         {
+            ///Configuring the Properties
+            //Builder uses the Fluent pattern
             builder.HasKey(o => o.Id);
 
-            //Builder uses the Fluent pattern
             builder
                 .Property(o => o.OrderDate)
                 .IsRequired();
@@ -46,6 +47,7 @@ namespace TDM_OnLineStore.Repository.Config
                 .Property(o => o.Number)
                 .IsRequired();
 
+            ///Configuring the Relationships
             builder
                 .HasOne(o => o.Payment);
         }

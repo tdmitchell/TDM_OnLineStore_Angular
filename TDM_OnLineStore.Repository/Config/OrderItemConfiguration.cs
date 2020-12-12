@@ -11,12 +11,14 @@ namespace TDM_OnLineStore.Repository.Config
     {
         public void Configure(EntityTypeBuilder<OrderItem> builder)
         {
+            ///Configuring the Properties
+            //Builder uses the Fluent pattern
             builder.HasKey(oItem => oItem.Id);
 
-            //Builder uses the Fluent pattern
             builder
                 .Property(oItem => oItem.ProductId)
                 .IsRequired();
+            
             builder
                 .Property(oItem => oItem.Quantity)
                 .IsRequired();

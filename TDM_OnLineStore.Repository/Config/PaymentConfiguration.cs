@@ -11,13 +11,15 @@ namespace TDM_OnLineStore.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Payment> builder)
         {
+            ///Configuring the Properties
+            //Builder uses the Fluent pattern
             builder.HasKey(pay => pay.Id);
 
-            //Builder uses the Fluent pattern
             builder
                 .Property(pay => pay.Name)
                 .IsRequired()
                 .HasMaxLength(50);
+            
             builder
                 .Property(pay => pay.Description)
                 .IsRequired()
