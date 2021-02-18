@@ -7,11 +7,11 @@ import { Component } from "@angular/core"
 })
 
 export class ProductsComponent {
+  
   public name: string;
   public isReadyToSale: boolean;
 
   public getName(): string {
-    //return this.name;
-    return "Sansung";
+    return this.name;
   }
 }
