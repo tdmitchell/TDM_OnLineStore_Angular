@@ -11,6 +11,8 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ProductsComponent } from './products/products.component';
 import { LoginComponent } from './user/login/login.component';
+import { RouteKeeper } from './authorization/route.keeper';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,7 @@ import { LoginComponent } from './user/login/login.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'products', component: ProductsComponent },
+      { path: 'products', component: ProductsComponent, canActivate: [RouteKeeper] },
       { path: 'login', component: LoginComponent },
     ])
   ],

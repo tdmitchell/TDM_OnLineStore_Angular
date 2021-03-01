@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-menu',
@@ -8,6 +9,10 @@ import { Component } from '@angular/core';
 export class NavMenuComponent {
   isExpanded = false;
 
+  constructor(private router: Router) {
+
+  }
+
   collapse() {
     this.isExpanded = false;
   }
@@ -15,4 +20,21 @@ export class NavMenuComponent {
   toggle() {
     this.isExpanded = !this.isExpanded;
   }
+
+  public userIsAuthenticated(): boolean {
+    //var userIsAuthenticated = sessionStorage.getItem("user-authenticated");  //Store locally from the login component
+    //if (userIsAuthenticated == "1") {
+    //  return true;
+    //}
+    //return false;
+
+    return sessionStorage.getItem("user-authenticated") == "1";    //Return True if authenticated or False if not
+  }
+
+  logout() {
+    sessionStorage.setItem("user-authenticated", "");
+    this.router.navigate(['/']);
+  }
 }
+
+
